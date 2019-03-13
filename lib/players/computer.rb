@@ -62,7 +62,7 @@ module Players
           "5"
         else
           if board.cells[4] == " "
-            @position = "5"
+            "5"
           elsif board.cells[0] == " "
             position = "1"
           elsif board.cells[2] == " "
@@ -81,7 +81,6 @@ module Players
             position = "8"
           end
         end
-        @position  
       end 
       if token == "O"
         #computer stops top row victory 
