@@ -61,7 +61,8 @@ module Players
         elsif board.cells[6] == "O" && board.cells[2] == "O" && board.cells[4] == " "
           "5"
         else
-          position = rand(1..9)  
+          position = rand(1..9)
+          binding.pry 
           until board.cells[position - 1] == " "
             position = rand(1..9)
           end
