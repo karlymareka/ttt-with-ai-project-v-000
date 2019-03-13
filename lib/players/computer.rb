@@ -159,6 +159,7 @@ module Players
           elsif board.cells[7] == " "
             position = "8"
           end
+          binding.pry 
           position 
         end
       end
