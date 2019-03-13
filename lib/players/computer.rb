@@ -134,11 +134,11 @@ module Players
           return "5"
         #computer stops top right to bottom left diagonal victory 
         elsif board.cells[6] == "X" && board.cells[4] == "X" && board.cells[2] == " "
-          "3"
+          return "3"
         elsif board.cells[4] == "X" && board.cells[2] == "X" && board.cells[6] == " "
-          "7"
+          return "7"
         elsif board.cells[6] == "X" && board.cells[2] == "X" && board.cells[4] == " "
-          "5"
+          return "5"
         else
           if board.cells[4] == " "
             return "5"
