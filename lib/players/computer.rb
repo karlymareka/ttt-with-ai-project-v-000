@@ -61,7 +61,26 @@ module Players
         elsif board.cells[6] == "O" && board.cells[2] == "O" && board.cells[4] == " "
           "5"
         else
-          
+           if board.cells[4] == " "
+            position = "5"
+          elsif board.cells[0] == " "
+            position = "1"
+          elsif board.cells[2] == " "
+            position = "3"
+          elsif board.cells[6] == " "
+            position = "7"
+          elsif board.cells[8] == " "
+            position = "9"
+          elsif board.cells[1] == " "
+            position = "2"
+          elsif board.cells[3] == " "
+            position = "4"
+          elsif board.cells[5] == " "
+            position = "6"
+          elsif board.cells[7] == " "
+            position = "8"
+          end
+          position 
         end
       end 
       if token == "O"
