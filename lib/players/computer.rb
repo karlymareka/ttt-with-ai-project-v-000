@@ -149,7 +149,7 @@ module Players
           elsif board.cells[6] == " "
             return "7"
           elsif board.cells[8] == " "
-            position = "9"
+            return "9"
           elsif board.cells[1] == " "
             position = "2"
           elsif board.cells[3] == " "
