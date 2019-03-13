@@ -81,7 +81,7 @@ module Players
             position = "8"
           end
         end
-        position  
+        @position  
       end 
       if token == "O"
         #computer stops top row victory 
