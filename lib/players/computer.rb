@@ -80,10 +80,8 @@ module Players
           elsif board.cells[7] == " "
             position = "8"
           end
-          binding.pry 
-          position
         end
-        binding.pry 
+        position  
       end 
       if token == "O"
         #computer stops top row victory 
