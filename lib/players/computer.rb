@@ -83,6 +83,7 @@ module Players
           binding.pry 
           position
         end
+        binding.pry 
       end 
       if token == "O"
         #computer stops top row victory 
