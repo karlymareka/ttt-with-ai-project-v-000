@@ -61,7 +61,11 @@ module Players
         elsif board.cells[6] == "O" && board.cells[2] == "O" && board.cells[4] == " "
           "5"
         else
-          "#{rand(1..9)}"
+          position = rand(1..9)  
+          until board.cells[position - 1] == " "
+            position = rand(1..9)
+          end
+          return position 
         end
       end 
       if token == "O"
@@ -122,7 +126,13 @@ module Players
         elsif board.cells[6] == "X" && board.cells[2] == "X" && board.cells[4] == " "
           "5"
         else
-          "#{rand(1..9)}"
+         position = rand(1..9)
+         binding.pry 
+          until board.cells[position - 1] == " "
+            position = rand(1..9)
+            binding.pry 
+          end
+          return position
         end
       end
     end
