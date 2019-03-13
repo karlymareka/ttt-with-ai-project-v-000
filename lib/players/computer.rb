@@ -155,7 +155,7 @@ module Players
           elsif board.cells[3] == " "
             return "4"
           elsif board.cells[5] == " "
-            position = "6"
+            return "6"
           elsif board.cells[7] == " "
             position = "8"
           end
