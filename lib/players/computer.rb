@@ -80,7 +80,8 @@ module Players
           elsif board.cells[7] == " "
             position = "8"
           end
-          position 
+          binding.pry 
+          position
         end
       end 
       if token == "O"
