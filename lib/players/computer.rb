@@ -61,6 +61,7 @@ module Players
         elsif board.cells[6] == "O" && board.cells[2] == "O" && board.cells[4] == " "
           "5"
         else
+          binding.pry 
           if board.cells[4] == " "
             return "5"
           elsif board.cells[0] == " "
