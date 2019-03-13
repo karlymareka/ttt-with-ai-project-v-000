@@ -142,7 +142,7 @@ module Players
           "5"
         else
           binding.pry 
-         if board.cells[4] == " "
+          if board.cells[4] == " "
             return "5"
           elsif board.cells[0] == " "
             return "1"
