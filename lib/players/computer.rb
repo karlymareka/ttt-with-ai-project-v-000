@@ -66,6 +66,7 @@ module Players
           until board.cells[position - 1] == " "
             position = rand(1..9)
             binding.pry 
+            return position 
           end
           return position 
         end
