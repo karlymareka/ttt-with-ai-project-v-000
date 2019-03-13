@@ -62,7 +62,7 @@ module Players
           "5"
         else
           if board.cells[4] == " "
-            "5"
+            position = "5"
           elsif board.cells[0] == " "
             position = "1"
           elsif board.cells[2] == " "
