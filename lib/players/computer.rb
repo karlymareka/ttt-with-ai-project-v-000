@@ -131,8 +131,8 @@ module Players
          position = rand(1..9)
          #binding.pry 
           until board.cells[position - 1] == " "
-            #position = rand(1..9)
-            binding.pry 
+            position = rand(1..9)
+            #binding.pry 
           end
           return position
         end
